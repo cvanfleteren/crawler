@@ -1,0 +1,15 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" default-activation="lazy">
+
+	<bean id="mbean" class="be.cvalue.crawler.fetcher.mbean.FetchUrlMbeanImpl">
+        <property name="urlFetcher" ref="urlFetcherService"/>
+    </bean>
+
+    <reference interface="be.cvalue.crawler.fetcher.api.UrlFetcher" id="urlFetcherService" availability="optional"/>
+
+	<service ref="mbean" auto-export="interfaces">
+    	<service-properties>
+        	<entry key="jmx.objectname" value="be.cvalue.crawler:type=UrlFetcher,name=fetcher"/>
+    	</service-properties>
+	</service>
+
+</blueprint>

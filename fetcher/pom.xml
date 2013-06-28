@@ -18,7 +18,8 @@
     <modules>
         <module>fetcher-api</module>
         <module>fetcher-impl-ning</module>
-        <module>fetcher-command</module>
+        <module>fetcher-command</module>		
+        <module>fetcher-mbean</module>
         <module>fetcher-tests</module>
     </modules>
 
