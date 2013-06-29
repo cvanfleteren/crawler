@@ -1,0 +1,15 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+    <reference id="urlFetcherService" availability="mandatory" interface="be.cvalue.crawler.fetcher.api.UrlFetcher" />
+
+    <bean id="fetcherServlet" class="be.cvalue.crawler.fetcher.web.FetcherServlet">
+        <argument ref="urlFetcherService"/>
+    </bean>
+
+    <service ref="fetcherServlet" interface="javax.servlet.http.HttpServlet">
+        <service-properties>
+            <entry key="alias" value="/fetch" />
+        </service-properties>
+    </service>
+
+</blueprint>

@@ -21,6 +21,7 @@
         <module>fetcher-command</module>		
         <module>fetcher-mbean</module>
         <module>fetcher-tests</module>
+        <module>fetcher-web</module>
     </modules>
 
 </project>
