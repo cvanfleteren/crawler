@@ -45,16 +45,11 @@
             <artifactId>fetcher-web</artifactId>
             <version>${project.version}</version>
         </dependency>
-
-<!--        <dependency>
-            <groupId>org.ops4j.pax.web</groupId>
-            <artifactId>pax-web-features</artifactId>
-            <version>3.0.1</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>-->
-
-
+        <dependency>
+            <groupId>be.cvalue.crawler.fetcher</groupId>
+            <artifactId>fetcher-jaxrs</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

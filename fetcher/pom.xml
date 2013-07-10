@@ -23,6 +23,7 @@
         <module>fetcher-tests</module>
         <module>fetcher-web</module>
         <module>fetcher-feature</module>
+        <module>fetcher-jaxrs</module>
     </modules>
 
 </project>

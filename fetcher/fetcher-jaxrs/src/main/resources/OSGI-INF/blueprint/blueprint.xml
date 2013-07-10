@@ -1,0 +1,8 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" default-activation="lazy">
+
+	<bean id="helloResource" class="be.cvalue.crawler.fetcher.jaxrs.HelloResourceImpl">
+    </bean>
+
+    <service ref="helloResource" interface="be.cvalue.crawler.fetcher.jaxrs.HelloResource"/>
+
+</blueprint>
