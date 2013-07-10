@@ -7,7 +7,7 @@ import org.apache.karaf.tooling.exam.options.KarafDistributionOption.karafDistri
 
 import javax.inject.Inject
 
-import org.junit.{Test}
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.ops4j.pax.exam.junit.{ExamReactorStrategy, JUnit4TestRunner, Configuration}
 

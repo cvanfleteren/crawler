@@ -1,11 +1,9 @@
 package be.cvalue.crawler.fetcher.jaxrs
 
-import javax.ws.rs.{PathParam, GET, Path}
 import be.cvalue.crawler.fetcher.api.UrlFetcher
-import javax.ws.rs.container.{Suspended, AsyncResponse}
+import javax.ws.rs.container.AsyncResponse
 import java.util.concurrent.TimeUnit
-import scala.concurrent.{ExecutionContext}
-import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext
 import ExecutionContext.Implicits.global
 
 class UrlFetcherResourceImpl(urlFetcher:UrlFetcher) extends  UrlFetcherResource {

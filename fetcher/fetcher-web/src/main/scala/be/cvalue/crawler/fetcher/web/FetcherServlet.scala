@@ -2,8 +2,7 @@ package be.cvalue.crawler.fetcher.web
 
 import javax.servlet.http.{HttpServletResponse, HttpServletRequest, HttpServlet}
 import be.cvalue.crawler.fetcher.api.UrlFetcher
-import scala.concurrent.{ExecutionContext, Await}
-import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext
 import javax.servlet.annotation.WebServlet
 import ExecutionContext.Implicits.global
 
