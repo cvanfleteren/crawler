@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 import javax.servlet.annotation.WebServlet
 import ExecutionContext.Implicits.global
 
-@WebServlet(value = Array("/fetcha"), asyncSupported = true)
+@WebServlet(asyncSupported = true, name = "fetch")
 class FetcherServlet(urlFetcher:UrlFetcher) extends HttpServlet {
 
   override def doGet( req : HttpServletRequest, resp:HttpServletResponse ) : Unit =

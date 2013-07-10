@@ -22,6 +22,7 @@
         <module>fetcher-mbean</module>
         <module>fetcher-tests</module>
         <module>fetcher-web</module>
+        <module>fetcher-feature</module>
     </modules>
 
 </project>

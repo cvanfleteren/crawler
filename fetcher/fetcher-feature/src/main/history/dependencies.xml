@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="fetcher-feature-1.0.0-SNAPSHOT">
+    <feature>
+        <feature>pax-http-whiteboard</feature>
+        <bundle>mvn:be.cvalue.crawler.fetcher/fetcher-api/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:be.cvalue.crawler.fetcher/fetcher-command/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:be.cvalue.crawler.fetcher/fetcher-impl-ning/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:be.cvalue.crawler.fetcher/fetcher-mbean/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:be.cvalue.crawler.fetcher/fetcher-web/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.ning/async-http-client/1.7.18</bundle>
+        <bundle>mvn:io.netty/netty/3.6.6.Final</bundle>
+        <bundle>mvn:org.scala-lang/scala-library/2.10.2</bundle>
+    </feature>
+</features>

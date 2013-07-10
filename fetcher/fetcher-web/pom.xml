@@ -19,6 +19,11 @@
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
                 <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Web-ContextPath>/fetcher</Web-ContextPath>
+                    </instructions>
+                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -34,9 +39,8 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
-
 
     </dependencies>
 
