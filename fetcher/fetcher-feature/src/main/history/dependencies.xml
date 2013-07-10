@@ -24,6 +24,7 @@
         <bundle>mvn:org.glassfish.hk2/hk2-utils/2.1.88</bundle>
         <bundle>mvn:org.glassfish.hk2/osgi-resource-locator/1.0.1</bundle>
         <bundle>mvn:org.glassfish.jersey.containers/jersey-container-servlet-core/2.0</bundle>
+        <bundle>mvn:org.glassfish.jersey.containers/jersey-container-servlet/2.0</bundle>
         <bundle>mvn:org.glassfish.jersey.core/jersey-client/2.0</bundle>
         <bundle>mvn:org.glassfish.jersey.core/jersey-common/2.0</bundle>
         <bundle>mvn:org.glassfish.jersey.core/jersey-server/2.0</bundle>
